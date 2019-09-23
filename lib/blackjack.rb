@@ -16,13 +16,14 @@ def prompt_user
 end
 
 def get_user_input
-  input = input.gets.chomp
+  input = gets.strip
   input
 end
 
 def end_game(card_total)
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
+
 
 def initial_round
   a = deal_card
@@ -31,6 +32,7 @@ def initial_round
   display_card_total(card_total)
   card_total
 end
+
 
 
 def invalid_command
@@ -51,12 +53,6 @@ def hit?(card_total)
   end
   card_total
 end
-
-
-
-#####################################################
-# get every test to pass before coding runner below #
-#####################################################
 
 def runner
 card_total = initial_round
