@@ -47,11 +47,12 @@ def hit?(card_total)
      display_card_total(card_total)
   elsif response === 'h'
     card_total += deal_card
+    display_card_total
   else
     invalid_command
     hit?(card_total)
   end
-  p card_total
+   
   card_total
 end
 
