@@ -51,12 +51,12 @@ def hit?(card_total)
     invalid_command
     hit?(card_total)
   end
-  p card_total
+   card_total
 end
 
 def runner
 card_total = initial_round
-card_total = hit?(card_total)
+c = hit?(card_total)
 while card_total < 21 do
   hit?(card_total)
 end
