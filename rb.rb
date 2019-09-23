@@ -56,7 +56,7 @@ end
 
 def runner
 card_total = initial_round
-while card_total < 21 do
+unitl card_total < 21 do
   hit?(card_total)
 end
 end_game
