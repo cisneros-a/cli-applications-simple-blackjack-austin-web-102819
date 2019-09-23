@@ -56,7 +56,7 @@ end
 
 def runner
 card_total = initial_round
-prompt_user
+hit?(card_total)
 
 end
 
