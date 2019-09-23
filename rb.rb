@@ -54,6 +54,10 @@ def hit?(card_total)
   card_total
 end
 
+def runner
+card_total = initial_round
+prompt_user
 
+end 
 
 runner
