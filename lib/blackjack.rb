@@ -62,5 +62,5 @@ def runner
 card_total = initial_round
 prompt_user
 
-
+end 
 runner
