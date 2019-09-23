@@ -60,8 +60,8 @@ hit?(card_total)
 if card_total < 21
 end_game
 else
-  hit?(card_total
-end )
+  hit?(card_total)
+end 
 
 end
 
