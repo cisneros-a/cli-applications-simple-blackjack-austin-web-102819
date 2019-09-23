@@ -61,4 +61,3 @@ until card_total > 21 do
 end
 end_game(card_total)
 end
-
