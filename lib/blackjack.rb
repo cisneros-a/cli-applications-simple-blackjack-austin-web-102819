@@ -59,15 +59,8 @@ end
 #####################################################
 
 def runner
-  welcome
-  card_total = deal_card
-  hit?(card_total)
-  if card_total < 21
-    hit?(card_total)
-  else
-  end_game
-end
-end 
+card_total = initial_round
+prompt_user
 
 
 runner
