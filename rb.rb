@@ -61,7 +61,7 @@ if card_total < 21
 end_game
 else
   hit?(card_total)
-end 
+end
 end
 
 runner
