@@ -46,7 +46,7 @@ def hit?(card_total)
   if response === 's'
      card_total
   elsif response === 'h'
-     card_total += deal_card
+     p card_total += deal_card
   else
     invalid_command
     hit?(card_total)
